@@ -53,7 +53,7 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 4. **A <= B:** A Less than or Equal to B
 5. **A == B:** A Equals B
 6. **A ~= B:** A doesn’t Equal B
-</br>
+
 ![image](https://github.com/manzar2525/Lua/assets/107947502/20c0048b-57b8-4242-9a69-25e6eb698b66)
 
 

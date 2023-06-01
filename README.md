@@ -99,6 +99,8 @@ The priority of evaluation of operators is mentioned below:
 6. <, >, <=, >=, ~=, ==
 7. and
 8. or
+
+
 **Note:** If an operator is repeated or multiple operators of the same level are in the same expression, the computer moves left to right through a line of code in execution.
 
 
@@ -117,7 +119,7 @@ print(getShoppingCartTotal(50,1.3))
 ```
 Let’s look at what each part of this code is doing:
 
-**function** — This marks the start of our function.
+**function** — This marks the start of our function.<br></br>
 **getShoppingCartTotal** — The function’s name. A function’s name should describe what the function does to increase our code’s readability.
 **(subTotal,taxRate)** — Parentheses are used to indicate any inputs. For now, there are two *subTotal* and *taxRate*.
 **total = subTotal * taxRate** - body of the function and we can add as many as lines of code required.

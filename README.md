@@ -133,6 +133,6 @@ For example, Lua has an entire collection of functions for using and manipulatin
 1. [Officle Lua website for Inbuilt Modules](http://lua-users.org/wiki/StringLibraryTutorial)
 2. [user-maintained wiki](http://lua-users.org/wiki/TutorialDirectory)
 
-**I have used the content from Codecademy as i learned from there itself**
+**I have used the content from Codecademy as i learned from there itself**<br></br>
 [Codecademy Learn Lua](https://www.codecademy.com/learn/learn-lua)
 

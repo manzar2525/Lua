@@ -19,8 +19,8 @@ A single line comment will comment out a single line and is denoted by two dashe
 
 ### Multi Line Comment
 A multi-line comment will comment out multiple lines and is denoted by --[[ (to begin the comment, and ]] to end the comment:
-  ``` function sumdigits(n) -- here we are putting a sinle line comment
-     local sum = 0
+  ``` function sumdigits(n) 
+     local sum = 0          --here we are putting a sinle line comment
      while n > 0 do
         sum = sum + n%10
         n = math.floor(n/10)
@@ -60,7 +60,6 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 ![image](https://github.com/manzar2525/Lua/assets/107947502/0b05dc5d-2e16-4eaf-b2f4-baf564a13c96)
 
 ## Conditionals and Logic
-<br></br>
 **The if Statement**
 The foundation of every control structure starts with an if statement. 
 if statements require two parts:
@@ -100,7 +99,6 @@ The priority of evaluation of operators is mentioned below:
 6. <, >, <=, >=, ~=, ==
 7. and
 8. or
-9. <br>
 **Note:** If an operator is repeated or multiple operators of the same level are in the same expression, the computer moves left to right through a line of code in execution.
 
 

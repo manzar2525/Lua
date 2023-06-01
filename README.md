@@ -130,6 +130,9 @@ Let’s look at what each part of this code is doing:
 ## Built-In Lua Functions
 We’ve been using print this whole time, but Lua comes with a lot more functions built in. 
 For example, Lua has an entire collection of functions for using and manipulating strings. The documentation for these functions can be found on Lua’s Official Website. 
-[Officle Lua website for Inbuilt Modules](http://lua-users.org/wiki/StringLibraryTutorial)
-[user-maintained wiki](http://lua-users.org/wiki/TutorialDirectory)
+1. [Officle Lua website for Inbuilt Modules](http://lua-users.org/wiki/StringLibraryTutorial)
+2. [user-maintained wiki](http://lua-users.org/wiki/TutorialDirectory)
+
+**I have used the content from Codecademy as i learned from there itself**
+[Codecademy Learn Lua](https://www.codecademy.com/learn/learn-lua)
 

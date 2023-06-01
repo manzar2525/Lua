@@ -46,6 +46,8 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 
 ## Operators
 
+
+
 ![image](https://github.com/manzar2525/Lua/assets/107947502/1a8423b1-ee17-4d0c-b9ef-95dc2946d640)
 
 

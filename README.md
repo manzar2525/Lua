@@ -44,7 +44,7 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 
 ![image](https://github.com/manzar2525/Lua/assets/107947502/1d7f74cc-e0c3-460e-b88f-e5f7fdfa5707)
 
-![image](https://github.com/manzar2525/Lua/assets/107947502/20c0048b-57b8-4242-9a69-25e6eb698b66)
+
 
 ## Comparision Operators
 1. **A > B:** A Greater than B
@@ -54,7 +54,7 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 5. **A == B:** A Equals B
 6. **A ~= B:** A doesn’t Equal B
 </br>
-
+![image](https://github.com/manzar2525/Lua/assets/107947502/20c0048b-57b8-4242-9a69-25e6eb698b66)
 
 
 

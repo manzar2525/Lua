@@ -56,133 +56,77 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 
 ![image](https://github.com/manzar2525/Lua/assets/107947502/20c0048b-57b8-4242-9a69-25e6eb698b66)
 
+## Conditionals and Logic
+<br>
+**The if Statement**
+The foundation of every control structure starts with an if statement. 
+if statements require two parts:
+1. **boolean expression** — a variable or some code that evaluates to a true or false value.
+2. **a code block** — the code that is executed if the boolean expression is true (and is skipped otherwise).
+
+```
+score=80
+if score >=90 then
+  print("you got A+")
+elseif score >=80 and score <90 then
+  print("you just passed")
+else
+  print("you failed")
+```
+Let’s break down the code in this example:<br>
+
+1. **if:** the keyword telling Lua to create an if statement.
+2. **score >=90:** the boolean expression to be evaluated.
+3. **then:** signals the end of the boolean expression and the start of the code block
+4. **print("you got A+")** the code that only runs if the boolean expression is true
+5. **elseif:** evaluate this ecpression if first expression is evaluated to be false.
+6. **print("you just passed")** the code that only runs if the first boolean expression is false and second is true.
+7. **else:** the keyword tell that all the above experssions are false then execute the below code
+8. **print("you failed"):** the code that only runs if all the boolean expression are false.
+9. **end:** marks the end of the code block.
+
+## Order of Operatros
+
+Given a boolean expression, it will evaluate certain operators before others. 
+The priority of evaluation of operators is mentioned below:
+1. ()
+2. ^
+3. not
+4. *, /
+5. +, -
+6. <, >, <=, >=, ~=, ==
+7. and
+8. or
+9. <br>
+**Note:** If an operator is repeated or multiple operators of the same level are in the same expression, the computer moves left to right through a line of code in execution.
 
 
-
-===========Conditionals and Logic
-The if Statement
-The foundation of every control structure starts with an if statement. if statements require two parts:
-
-a boolean expression — a variable or some code that evaluates to a true or false value.
-a code block — the code that is executed if the boolean expression is true (and is skipped otherwise).
-
-isHungry = true
-if isHungry then
-  print("I need food")
-end 
-
-Let’s break down the code in this example:
-
-if: the keyword telling Lua to create an if statement.
-isHungry: the boolean expression to be evaluated.
-then: signals the end of the boolean expression and the start of the code block
-print("I need food"): the code that only runs if the boolean expression is true.
-end: marks the end of the code block.
-
-The else Statement
-Next, let’s talk about a common scenario: We want something to happen if our condition is true OR we want something else to happen if our condition is false. We could write this:
-
-The elseif Statement
-Imagine we are in the kitchen making a delicious sandwich, but when we check the fridge, we notice that we don’t have ham. We don’t just throw out the sandwich because we don’t have ham. We first will check if we have another option. Luckily we had turkey and can continue to make a sandwich.
-
-peopleInRoom = 10
-chairsInRoom = 5
-if peopleInRoom == 0 then
-  print("No one showed up!")
-elseif peopleInRoom <= chairsInRoom then
-  print("We have enough chairs")
-else    
-  print("We don't have enough chairs")
-end
-
-
-============Order of Operatros=====
-
-Given a boolean expression, it will evaluate certain operators before others. The table below shows what operators are evaluated first from top to bottom.
-()
-^
-not
-*, /
-+, -
-<, >, <=, >=, ~=, ==
-and
-or
-Note: If an operator is repeated or multiple operators of the same level are in the same expression, the computer moves left to right through a line of code in execution.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-========================Functions=========
+## Functions
 
 If we want to create a function for our code then we have to make a function declaration.
-
-Most of the code is the same but we’ve added some things before and after. Let’s look at what each part of this code is doing:
-
-function — This marks the start of our function.
-getTravelTime — The function’s name. A function’s name should describe what the function does to increase our code’s readability.
-() — Parentheses are used to indicate any inputs. For now, there are none (indicated by the empty parentheses) but we’ll add some later.
-The code of the function goes between the parentheses and end and is indented for improved readability.
-end — This marks the end of our function.
-
-
-function printShoppingCartTotal()
-  subtotal = 100
-  taxRate = 1.2
-  total = subtotal * taxRate
-  print(total)
-end
-
-printShoppingCartTotal()
-printShoppingCartTotal()
-printShoppingCartTotal()
-
-
-We need to set up our function to take inputs (called arguments) that change how the function behaves. For our own functions to do this, they need parameters. Parameters are variables that are declared with the function but aren’t assigned a value until they are called:
-
-Returns
-As we have seen, our functions can receive outside information from the rest of the program. Our functions can also send information back. This is done through a return.
-
-One more important note about returns is that any code after a return statement will never be executed.
-
-
-function printShoppingCartTotal(subtotal, taxRate)
-  total = subtotal * taxRate
-  print(total)
-end
-
-printShoppingCartTotal(100,1.2)
-printShoppingCartTotal(200,1.1)
-printShoppingCartTotal(500,1)
-
-
-
-function getShoppingCartTotal(subtotal, taxRate)
-  total = subtotal * taxRate
+```
+function getShoppingCartTotal(subTotal,taxRate)
+  total = subTotal * taxRate
   return total
 end
 
-total1=getShoppingCartTotal(200,1.2)
-total2=getShoppingCartTotal(300,1.1)
-total3=getShoppingCartTotal(50,1.5)
-finalTotal=total1 + total2 + total3
-print(finalTotal)
-print(total3)
-print(total1,total2)
+print(getShoppingCartTotal(100,1.5))
+print(getShoppingCartTotal(200,2))
+print(getShoppingCartTotal(50,1.3))
+```
+Let’s look at what each part of this code is doing:
 
+**function** — This marks the start of our function.
+**getShoppingCartTotal** — The function’s name. A function’s name should describe what the function does to increase our code’s readability.
+**(subTotal,taxRate)** — Parentheses are used to indicate any inputs. For now, there are two *subTotal* and *taxRate*.
+**total = subTotal * taxRate** - body of the function and we can add as many as lines of code required.
+ **return total** - This line is returning the execution control back to the statement which callled this function. any code as part of this function will not be executed.
+**end** — This marks the end of our function.end and is indented for improved readability.
+**getShoppingCartTotal(100,1.5)** writing a function won't get executed until and unless we call that function. here the function is being called.
 
-Built-In Lua Functions
-We’ve been using print this whole time, but Lua comes with a lot more functions built in. For example, Lua has an entire collection of functions for using and manipulating strings. The documentation for these functions can be found on Lua’s Official Website. Additional examples for the string and other libraries can be found in the user-maintained wiki
+## Built-In Lua Functions
+We’ve been using print this whole time, but Lua comes with a lot more functions built in. 
+For example, Lua has an entire collection of functions for using and manipulating strings. The documentation for these functions can be found on Lua’s Official Website. 
+[Officle Lua website for Inbuilt Modules](http://lua-users.org/wiki/StringLibraryTutorial)
+[user-maintained wiki](http://lua-users.org/wiki/TutorialDirectory)
 

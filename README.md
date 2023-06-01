@@ -19,7 +19,7 @@ A single line comment will comment out a single line and is denoted by two dashe
 
 ### Multi Line Comment
 A multi-line comment will comment out multiple lines and is denoted by --[[ (to begin the comment, and ]] to end the comment:
-  ` function sumdigits(n) 
+  ``` function sumdigits(n) 
      local sum = 0
      while n > 0 do
         sum = sum + n%10
@@ -27,7 +27,7 @@ A multi-line comment will comment out multiple lines and is denoted by --[[ (to 
      end
      return sum
   end
-`
+```
 ### Data Types in Lua
 In Lua, data can be organized into four basic data types, each with distinct behavior and purposes.
 | Data Type	    | Definition    |	Syntax    |  Example  |

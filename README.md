@@ -1,7 +1,7 @@
 # Description
 Some basic concepts of scripting in Lua Programing Language.
 This guide is for experienced programmer who need to write some script but have no idea about the syntax of Lua Prigramming.
-This just given an overall idea of Lua Programming.
+This guide just give an overall idea of Lua Programming.
 
 
 ## Introduction to Lua

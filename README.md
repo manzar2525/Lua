@@ -31,17 +31,13 @@ A multi-line comment will comment out multiple lines and is denoted by --[[ (to 
 ### Data Types in Lua
 In Lua, data can be organized into four basic data types, each with distinct behavior and purposes.
 
-| Data Type	    | Definition    |	Syntax    |  Example  |
----------------------------------------------------------
-| Number	  |A numeric value including positive values, negative values, and decimal values.|	10, 3.5, -4	|To store how many followers you have on Insta|
 
-| String	  |A sequence of individual characters inside quotations. It can be letters, spaces, numbers, or symbols.|	"This is a string"|'I have 5 cats!"	To store your username on a website.|
+1. **Number:**  A numeric value including positive values, negative values, and decimal values.	**Examples**: 10, 3.5, -4	
+2. **String:**	A sequence of individual characters inside quotations. It can be letters, spaces, numbers, or symbols. **Example:** "This is a string".'I have 5 cats!'	To store your username on a website.
+3. **Boolean:** A value that only has two possible values: true or false.	
+4. **Nil:** A representation for the absence of a value. If there is no value, it is nil.
 
-| Boolean	  | A value that only has two possible values: true or false.	| "TRUE FALSE"  |	To indicate whether you have dark mode on or not.|
-
-| Nil	      | A representation for the absence of a value. |  If there is no value, it is nil.|	nil	To indicate an empty box on a fillable form.|
-
-Note: There are also an additional four complex data types that we won’t go into now. They are: 
+**Note:** There are also an additional four complex data types that we won’t go into now. They are: 
 1.  Tables
 2.  Functions
 3.  Userdata

@@ -45,14 +45,9 @@ In Lua, data can be organized into four basic data types, each with distinct beh
 
 
 ## Operators
-1. **Addition:**	Adds two numbers.</br> Example:-	x + y,	5 + 2 = 7
-2. **Subtraction:** Subtracts two numbers.</br>	Example:- x - y,	2 - 1 = 1
-3. **Multiplication:** Multiplies two numbers.</br> Example:-	x * y,	5 * 2 = 10
-4. **Division:**  Divides two numbers.</br> Example:-	x / y,	5/2 = 2.5
-5. **Exponential:** Takes the exponent of two numbers.</br> Example:-	x ^ y,	5 ^ 2 = 25
-6. **Remainder:** Gives us the remaining leftover number after we’ve divided two numbers.</br>  Example:-	x % y,	5 % 2 =	1</br> **(also known as modulo or modulus)**
-7. **Negation:**  Reverses the sign value of the number.</br> Example:-	-x,	-5 = -5
-![image](https://github.com/manzar2525/Lua/assets/107947502/506bb28d-4953-4c68-9b60-284826f297fa)
+
+![image](https://github.com/manzar2525/Lua/assets/107947502/1a8423b1-ee17-4d0c-b9ef-95dc2946d640)
+
 
 
 ==============Comparision Operators=========

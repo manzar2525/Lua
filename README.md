@@ -119,13 +119,13 @@ print(getShoppingCartTotal(50,1.3))
 ```
 Let’s look at what each part of this code is doing:
 
-**function** — This marks the start of our function.<br></br>
-**getShoppingCartTotal** — The function’s name. A function’s name should describe what the function does to increase our code’s readability.
-**(subTotal,taxRate)** — Parentheses are used to indicate any inputs. For now, there are two *subTotal* and *taxRate*.
-**total = subTotal * taxRate** - body of the function and we can add as many as lines of code required.
- **return total** - This line is returning the execution control back to the statement which callled this function. any code as part of this function will not be executed.
-**end** — This marks the end of our function.end and is indented for improved readability.
-**getShoppingCartTotal(100,1.5)** writing a function won't get executed until and unless we call that function. here the function is being called.
+1. **function** — This marks the start of our function.
+2. **getShoppingCartTotal** — The function’s name. A function’s name should describe what the function does to increase our code’s readability.
+3. **(subTotal,taxRate)** — Parentheses are used to indicate any inputs. For now, there are two *subTotal* and *taxRate*.
+4. **total = subTotal * taxRate** - body of the function and we can add as many as lines of code required.
+5.  **return total** - This line is returning the execution control back to the statement which callled this function. any code as part of this function will not be executed.
+6.  **end** — This marks the end of our function.end and is indented for improved readability.
+7.  **getShoppingCartTotal(100,1.5)** writing a function won't get executed until and unless we call that function. here the function is being called.
 
 ## Built-In Lua Functions
 We’ve been using print this whole time, but Lua comes with a lot more functions built in. 

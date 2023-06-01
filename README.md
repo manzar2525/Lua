@@ -32,7 +32,7 @@ A multi-line comment will comment out multiple lines and is denoted by --[[ (to 
 In Lua, data can be organized into four basic data types, each with distinct behavior and purposes.
 
 
-1. **Number:**  A numeric value including positive values, negative values, and decimal values.	**Examples**: 10, 3.5, -4	
+1. **Number:**  A numeric value including positive values, negative values, and decimal values.	  </br>**Examples**: 10, 3.5, -4	
 2. **String:**	A sequence of individual characters inside quotations. It can be letters, spaces, numbers, or symbols. **Example:** "This is a string".'I have 5 cats!'	To store your username on a website.
 3. **Boolean:** A value that only has two possible values: true or false.	
 4. **Nil:** A representation for the absence of a value. If there is no value, it is nil.
